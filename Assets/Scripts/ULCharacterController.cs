@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ULCharacterController : MonoBehaviour {
-	public float speed = 4.0f;
 
+	// Use this for initialization
 	void Start () {
-
+		
 	}
-
-	void FixedUpdate () {
-		Vector3 direction = new Vector3 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical")).normalized;
-		transform.Translate (direction * speed * Time.fixedDeltaTime);
+	
+	// Update is called once per frame
+	void Update () {
+		
 	}
 }
